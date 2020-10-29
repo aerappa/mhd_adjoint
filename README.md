@@ -25,7 +25,7 @@ gets saved in the XMLs directory. Then, the next time the specific parameters
 are used, the saved file is read in as an inital guess for the nonlinear
 solver. This allows for the homotopy argument for the Reynold's number.
 
-# Experiemtns 4-7 for the lid driven cavity
+# Pickle files 4-7 for the lid driven cavity
 For these experiments, an initial guess is being loaded from the files in the
 folder `init_guesses` which can be extracted `tar -xvf init_guesses.tar`.  This
 is necessary to run the lid driven cavity tests, since the solver stalls for
