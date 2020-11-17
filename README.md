@@ -36,7 +36,7 @@ Thanks to the magic of FEniCS, one can seamlessly run the code in parallel by
 using `mpiexec -n <np> python3 main.py k`.
 
 # Collaborators
-Ari Rappaport - Inria, Paris\
+Ari Rappaport  - Inria, Paris\
 Jehanzeb Chaudhry - University of New Mexico\
 John Shadid - University of New Mexico/Sandia National Laboratories\
 J. Chaudhry’s work is supported by the NSF-DMS 1720402
