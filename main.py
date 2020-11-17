@@ -8,7 +8,7 @@ import sys
 
 def get_qoi_psi(msh, dof):
     """ Return the characteristic function from a DG space.
-    
+
         Args:
             msh -- The mesh to create on
             dof -- u or B
@@ -95,12 +95,12 @@ def solve_adjoint_problem(W_adjoint, adjoint_mesh, u, p, B, psi_u, psi_B, RHS):
 
 def setup_spaces(primal_mesh, adjoint_mesh, lo_u, lo_p, lo_B, ho_u, ho_p, ho_B):
     """ Create the spaces for the problem
-        
+
         Args:
             [primal_mesh, adjoint_mesh] -- By default these are the same
             [lo_u, lo_p, lo_B] -- Dimensions for low order product space
             [ho_u, ho_p, ho_B] -- Dimensions for high order product space
-        
+
         Return:
             [W_primal, W_adjoint] -- Product spaces
     """
@@ -146,7 +146,7 @@ def setup_meshes(primal_xele, primal_yele, primal_zele, mult):
 
 def run_problem(primal_xele, primal_yele, primal_zele):
     """ Workhouse for running mesh refinement studies
-        
+
         Args:
             [primal_xele, yele, zele] -- Numbers of elements. Primal_zele == nan in 2D
     """
