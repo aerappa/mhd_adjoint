@@ -1,5 +1,5 @@
 # Running the code
-This code is used to produce the results of https://arxiv.org/abs/2004.10292.
+This code is used to produce the results of [this paper](https://doi.org/10.1137/20M1342975).
 The code is run by `python3 main.py k` where `k` represents an experiment
 number. For example `python3 main.py 0`gerenates the first table in
 `tables/2D_Hartmann-P2_P1_P1.txt`. More on this later. The experiments are
